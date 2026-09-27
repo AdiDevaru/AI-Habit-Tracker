@@ -1,6 +1,6 @@
 import express from "express";
 
-import { weeklyReport, suggestHabits, recoverPlan, chatAnalysis, morningMotivation } from "../controllers/aicontroller.js";
+import { weeklyReport, suggestHabits, recoverPlan, chatAnalysis, morningMotivation } from "../controllers/aiController.js";
 import { protect } from "../middleware/auth.js";
 
 const router = express.Router();
